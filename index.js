@@ -10,8 +10,7 @@ window.onload = function(){
     var m = 0;
     var s = 0;
 
-  //if the values all are = 0 or < 0 show message  
-
+ 
 
 };
 
@@ -25,5 +24,9 @@ function startCounting() {
     h = +document.getElementById("input-h").value || h;
     m = +document.getElementById("input-m").value || m;
     s = +document.getElementById("input-s").value || s;
+
+    // check for illegal input
+    // if the values all are = 0 or < 0 show message
+     
 
 }
